@@ -45,7 +45,7 @@ jobs:
               run: npm ci
 
             - name: Build project
-              run: ng build --base-href=/home/
+              run: npm run build_prod
 
             - name: Upload Pages artifact
               uses: actions/upload-pages-artifact@v1
